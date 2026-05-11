@@ -5,6 +5,29 @@
         <link>https://raw.githubusercontent.com/lllll8505-ui/cc-app-cleaner/main/appcast.xml</link>
         <description>CC App Cleaner 업데이트 채널</description>
         <item>
+            <title>버전 1.0.1</title>
+            <pubDate>Mon, 11 May 2026 06:30:00 +0000</pubDate>
+            <sparkle:version>1.0.1</sparkle:version>
+            <sparkle:shortVersionString>1.0.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h2>1.0.1 업데이트</h2>
+                <ul>
+                    <li>"확보" 버튼 한 번에 휴지통·완전삭제·취소 선택</li>
+                    <li>root 소유 앱(App Store 앱 등)도 비밀번호 입력으로 자동 삭제</li>
+                    <li>권한 안내 팝업 + 시스템 설정 바로가기 버튼 추가</li>
+                    <li>"slides"가 "Slideshow"와 잘못 매칭되던 버그 수정</li>
+                    <li>삭제 실패 시 정확한 원인 + 해결 방법 표시</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/lllll8505-ui/cc-app-cleaner/releases/download/v1.0.1/CC.App.Cleaner-1.0.1.zip"
+                sparkle:edSignature="x+3RZ3/fOTInUtBOttLLDoWxLRhF9dkVMvOguoYFq1IwdxfMTDWtzNYA7hT7UtOwVr1WSYYvaO+FJts17R/DCQ=="
+                length="2948753"
+                type="application/octet-stream" />
+        </item>
+
+        <item>
             <title>버전 1.0.0</title>
             <pubDate>Mon, 11 May 2026 05:50:00 +0000</pubDate>
             <sparkle:version>1.0.0</sparkle:version>
@@ -12,11 +35,6 @@
             <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
             <description><![CDATA[
                 <h2>CC App Cleaner 1.0.0 첫 출시</h2>
-                <ul>
-                    <li><b>앱 정리 모드</b>: 설치된 앱과 관련 캐시·설정·로그·데이터 한 번에 정리</li>
-                    <li><b>잔재 찾기 모드</b>: 이미 지운 앱의 흔적 자동 검출</li>
-                    <li>안전 필터: Apple 시스템·iCloud·공유 데이터는 자동 제외</li>
-                </ul>
             ]]></description>
             <enclosure
                 url="https://github.com/lllll8505-ui/cc-app-cleaner/releases/download/v1.0.0/CC.App.Cleaner-1.0.0.zip"
