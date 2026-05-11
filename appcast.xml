@@ -5,21 +5,34 @@
         <link>https://raw.githubusercontent.com/lllll8505-ui/cc-app-cleaner/main/appcast.xml</link>
         <description>CC App Cleaner 업데이트 채널</description>
         <item>
+            <title>버전 1.0.2</title>
+            <pubDate>Mon, 11 May 2026 10:00:00 +0000</pubDate>
+            <sparkle:version>1.0.2</sparkle:version>
+            <sparkle:shortVersionString>1.0.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h2>1.0.2 업데이트</h2>
+                <ul>
+                    <li><b>Dock 자동 정리</b>: 앱 삭제 시 Dock 아이콘도 함께 제거</li>
+                    <li><b>root 소유 앱 자동 처리</b>: App Store 앱 등 비밀번호 입력으로 자동 삭제</li>
+                    <li>"확보" 버튼 한 번에 휴지통·완전삭제·취소 선택</li>
+                    <li>권한 안내 팝업 + 시스템 설정 바로가기</li>
+                    <li>"slides → Slideshow" false positive 수정</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/lllll8505-ui/cc-app-cleaner/releases/download/v1.0.2/CC.App.Cleaner-1.0.2.zip"
+                sparkle:edSignature="wP581tbF95kvQ9aDvbNvpLj4Zust+C6EVLXIIWKmg8y+7Ga/Vv+0TYyww0AYyRVOUwH5wNktFDWoIkEUosy/CA=="
+                length="2956213"
+                type="application/octet-stream" />
+        </item>
+
+        <item>
             <title>버전 1.0.1</title>
             <pubDate>Mon, 11 May 2026 06:30:00 +0000</pubDate>
             <sparkle:version>1.0.1</sparkle:version>
             <sparkle:shortVersionString>1.0.1</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-            <description><![CDATA[
-                <h2>1.0.1 업데이트</h2>
-                <ul>
-                    <li>"확보" 버튼 한 번에 휴지통·완전삭제·취소 선택</li>
-                    <li>root 소유 앱(App Store 앱 등)도 비밀번호 입력으로 자동 삭제</li>
-                    <li>권한 안내 팝업 + 시스템 설정 바로가기 버튼 추가</li>
-                    <li>"slides"가 "Slideshow"와 잘못 매칭되던 버그 수정</li>
-                    <li>삭제 실패 시 정확한 원인 + 해결 방법 표시</li>
-                </ul>
-            ]]></description>
             <enclosure
                 url="https://github.com/lllll8505-ui/cc-app-cleaner/releases/download/v1.0.1/CC.App.Cleaner-1.0.1.zip"
                 sparkle:edSignature="x+3RZ3/fOTInUtBOttLLDoWxLRhF9dkVMvOguoYFq1IwdxfMTDWtzNYA7hT7UtOwVr1WSYYvaO+FJts17R/DCQ=="
@@ -33,9 +46,6 @@
             <sparkle:version>1.0.0</sparkle:version>
             <sparkle:shortVersionString>1.0.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-            <description><![CDATA[
-                <h2>CC App Cleaner 1.0.0 첫 출시</h2>
-            ]]></description>
             <enclosure
                 url="https://github.com/lllll8505-ui/cc-app-cleaner/releases/download/v1.0.0/CC.App.Cleaner-1.0.0.zip"
                 sparkle:edSignature="l0X2aLO8JyPeSMXnpGW/zZSHHjAuSpGLwNy1G6W+1rGKK/xPx3oUN/MA6wxS2E+Qf5Gfnu7nH1W0c0+2ifXpAA=="
