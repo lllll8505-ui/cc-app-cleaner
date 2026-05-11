@@ -6,7 +6,7 @@
         <description>CC App Cleaner 업데이트 채널</description>
         <item>
             <title>버전 1.0.0</title>
-            <pubDate>Mon, 11 May 2026 05:30:00 +0000</pubDate>
+            <pubDate>Mon, 11 May 2026 05:50:00 +0000</pubDate>
             <sparkle:version>1.0.0</sparkle:version>
             <sparkle:shortVersionString>1.0.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
@@ -20,8 +20,8 @@
             ]]></description>
             <enclosure
                 url="https://github.com/lllll8505-ui/cc-app-cleaner/releases/download/v1.0.0/CC.App.Cleaner-1.0.0.zip"
-                sparkle:edSignature="8zixNbuqaKEwTjKVLjeGp27fD3dgO1mMngCD3nuEk3MTnxe3nv30ELQF0JB79mP/3AKlDu2qQ8frm0N6+yreAA=="
-                length="2934429"
+                sparkle:edSignature="l0X2aLO8JyPeSMXnpGW/zZSHHjAuSpGLwNy1G6W+1rGKK/xPx3oUN/MA6wxS2E+Qf5Gfnu7nH1W0c0+2ifXpAA=="
+                length="2931374"
                 type="application/octet-stream" />
         </item>
 
