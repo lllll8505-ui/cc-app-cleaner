@@ -4,6 +4,8 @@
         <title>CC App Cleaner</title>
         <link>https://raw.githubusercontent.com/lllll8505-ui/cc-app-cleaner/main/appcast.xml</link>
         <description>CC App Cleaner 업데이트 채널</description>
+        <language>ko</language>
+
         <item>
             <title>버전 1.0.2</title>
             <pubDate>Mon, 11 May 2026 10:00:00 +0000</pubDate>
@@ -16,14 +18,14 @@
                     <li><b>Dock 자동 정리</b>: 앱 삭제 시 Dock 아이콘도 함께 제거</li>
                     <li><b>root 소유 앱 자동 처리</b>: App Store 앱 등 비밀번호 입력으로 자동 삭제</li>
                     <li>"확보" 버튼 한 번에 휴지통·완전삭제·취소 선택</li>
-                    <li>권한 안내 팝업 + 시스템 설정 바로가기</li>
+                    <li>권한 설정 단순화 — 전체 디스크 접근 권한 하나로 통합</li>
                     <li>"slides → Slideshow" false positive 수정</li>
                 </ul>
             ]]></description>
             <enclosure
                 url="https://github.com/lllll8505-ui/cc-app-cleaner/releases/download/v1.0.2/CC.App.Cleaner-1.0.2.zip"
-                sparkle:edSignature="wP581tbF95kvQ9aDvbNvpLj4Zust+C6EVLXIIWKmg8y+7Ga/Vv+0TYyww0AYyRVOUwH5wNktFDWoIkEUosy/CA=="
-                length="2956213"
+                sparkle:edSignature="NOLiMfUkLqmOWpn/qG3dba2hIEgjJVdETZigo9HZvGpuDAYxIm5lizzzgbhDwDrQ67ASsVBgLsDOBfkO6O3PBQ=="
+                length="2955860"
                 type="application/octet-stream" />
         </item>
 
