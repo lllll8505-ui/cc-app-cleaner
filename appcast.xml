@@ -6,54 +6,50 @@
         <description>CC App Cleaner 업데이트 채널</description>
         <language>ko</language>
 
+        <!-- 새 버전 출시 시 가장 위에 <item> 블록을 추가하세요.
+             release.sh 스크립트가 자동으로 만들어줍니다. -->
+
         <item>
-            <title>버전 1.0.2</title>
-            <pubDate>Mon, 11 May 2026 10:00:00 +0000</pubDate>
-            <sparkle:version>3</sparkle:version>
-            <sparkle:shortVersionString>1.0.2</sparkle:shortVersionString>
+            <title>버전 1.0.3</title>
+            <pubDate>Wed, 14 May 2026 13:50:00 +0900</pubDate>
+            <sparkle:version>4</sparkle:version>
+            <sparkle:shortVersionString>1.0.3</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
             <description><![CDATA[
-                <h2>1.0.2 업데이트</h2>
+                <h2>1.0.3 업데이트</h2>
                 <ul>
-                    <li><b>Dock 자동 정리</b>: 앱 삭제 시 Dock 아이콘도 함께 제거</li>
-                    <li><b>root 소유 앱 자동 처리</b>: App Store 앱 등 비밀번호 입력으로 자동 삭제</li>
-                    <li>"확보" 버튼 한 번에 휴지통·완전삭제·취소 선택</li>
-                    <li>권한 설정 단순화 — 전체 디스크 접근 권한 하나로 통합</li>
-                    <li>"slides → Slideshow" false positive 수정</li>
+                    <li>응용 프로그램 폴더 외에서 실행 시 자동으로 이동</li>
                 </ul>
             ]]></description>
             <enclosure
-                url="https://github.com/lllll8505-ui/cc-app-cleaner/releases/download/v1.0.2/CC.App.Cleaner-1.0.2.zip"
-                sparkle:edSignature="NOLiMfUkLqmOWpn/qG3dba2hIEgjJVdETZigo9HZvGpuDAYxIm5lizzzgbhDwDrQ67ASsVBgLsDOBfkO6O3PBQ=="
-                length="2955860"
+                url="https://github.com/lllll8505-ui/cc-app-cleaner/releases/download/v1.0.3/CC.App.Cleaner-1.0.3.zip"
+                sparkle:edSignature="3/Uw4g9cbjX5ADOyq2AQ50N6elkyob41Qr0FtA5eAhEzuinOPBg0R4Rh8uUzVPoQL4V9KFSkHT5LAcE3VjWRAg=="
+                length="5936059"
                 type="application/octet-stream" />
         </item>
 
-        <item>
-            <title>버전 1.0.1</title>
-            <pubDate>Mon, 11 May 2026 06:30:00 +0000</pubDate>
-            <sparkle:version>2</sparkle:version>
-            <sparkle:shortVersionString>1.0.1</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-            <enclosure
-                url="https://github.com/lllll8505-ui/cc-app-cleaner/releases/download/v1.0.1/CC.App.Cleaner-1.0.1.zip"
-                sparkle:edSignature="x+3RZ3/fOTInUtBOttLLDoWxLRhF9dkVMvOguoYFq1IwdxfMTDWtzNYA7hT7UtOwVr1WSYYvaO+FJts17R/DCQ=="
-                length="2948753"
-                type="application/octet-stream" />
-        </item>
 
+        <!-- 첫 릴리스 예시 (실제 릴리스 후 교체)
         <item>
             <title>버전 1.0.0</title>
-            <pubDate>Mon, 11 May 2026 05:50:00 +0000</pubDate>
-            <sparkle:version>1</sparkle:version>
+            <pubDate>Sat, 11 May 2026 12:00:00 +0000</pubDate>
+            <sparkle:version>1.0.0</sparkle:version>
             <sparkle:shortVersionString>1.0.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h2>최초 출시</h2>
+                <ul>
+                    <li>앱 정리 모드</li>
+                    <li>잔재 찾기 모드</li>
+                </ul>
+            ]]></description>
             <enclosure
                 url="https://github.com/lllll8505-ui/cc-app-cleaner/releases/download/v1.0.0/CC.App.Cleaner-1.0.0.zip"
-                sparkle:edSignature="l0X2aLO8JyPeSMXnpGW/zZSHHjAuSpGLwNy1G6W+1rGKK/xPx3oUN/MA6wxS2E+Qf5Gfnu7nH1W0c0+2ifXpAA=="
-                length="2931374"
+                sparkle:edSignature="(release.sh가 자동 생성)"
+                length="(파일 크기 바이트)"
                 type="application/octet-stream" />
         </item>
+        -->
 
     </channel>
 </rss>
