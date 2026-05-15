@@ -10,6 +10,25 @@
              release.sh 스크립트가 자동으로 만들어줍니다. -->
 
         <item>
+            <title>버전 1.0.4</title>
+            <pubDate>Thu, 15 May 2026 10:00:00 +0900</pubDate>
+            <sparkle:version>5</sparkle:version>
+            <sparkle:shortVersionString>1.0.4</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h2>1.0.4 업데이트</h2>
+                <ul>
+                    <li>앱 실행 시 응용 프로그램 폴더로 자동 이동 개선</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/lllll8505-ui/cc-app-cleaner/releases/download/v1.0.4/CC.App.Cleaner.zip"
+                sparkle:edSignature="GAemE9SYzAr0BhD6A1xr00q39pAYPARHC1m4Ra0oJptWDLDtqfQY3Iv5hzAvUrtjYp4zthEqq8DfVJ8Wcte2Dw=="
+                length="2971802"
+                type="application/octet-stream" />
+        </item>
+
+        <item>
             <title>버전 1.0.3</title>
             <pubDate>Wed, 14 May 2026 13:50:00 +0900</pubDate>
             <sparkle:version>4</sparkle:version>
